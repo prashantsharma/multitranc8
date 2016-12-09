@@ -77,9 +77,9 @@
 
 jQuery(document).ready(function($) {
     //We only invoke jQuery.tinydot on elements that have dot-ellipsis class
-    $(".dot-ellipsis").each(function(){
+    $(".text-truncate").each(function(){
         //Checking if update on window resize required
-        var watch_window=$(this).hasClass("dot-resize-update");
+        var watch_window=$(this).hasClass("text-truncate-resize");
 
         //Invoking jQuery.tinydot
         var x = new Object();
