@@ -4,7 +4,7 @@
   } else if (typeof exports === 'object') {
     module.exports = factory(require('jQuery'));
   } else {
-    root.jquery_tinydot_min_js = factory(root.jQuery);
+    root.jquery_multitranc8_min_js = factory(root.jQuery);
   }
 }(this, function(jQuery) {
 

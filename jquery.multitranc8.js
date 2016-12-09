@@ -1,11 +1,11 @@
 (function( $, undef )
 {
-    if ( $.fn.tinydot )
+    if ( $.fn.ellipsis )
     {
             return;
     }
 
-    $.fn.tinydot = function( o ) {
+    $.fn.ellipsis = function( o ) {
         
         var $dot = this;
         $dot.child = getChildOrDie($dot);
@@ -30,7 +30,7 @@
             return $dot;
         };
     
-        var opts = $.extend( true, {}, $.fn.tinydot.defaults, o ),
+        var opts = $.extend( true, {}, $.fn.ellipsis.defaults, o ),
             watchInt = null;
 
         if ( opts.watch )
@@ -40,7 +40,7 @@
     }
     
     // public
-    $.fn.tinydot.defaults = {
+    $.fn.ellipsis.defaults = {
         'watch'               : false
     };
     
@@ -76,15 +76,11 @@
 })( jQuery );
 
 jQuery(document).ready(function($) {
-    //We only invoke jQuery.tinydot on elements that have dot-ellipsis class
     $(".text-truncate").each(function(){
-        //Checking if update on window resize required
         var watch_window=$(this).hasClass("text-truncate-resize");
-
-        //Invoking jQuery.tinydot
         var x = new Object();
         if (watch_window)
                 x.watch='window';
-        $(this).tinydot(x);
+        $(this).ellipsis(x);
     });
 });
