@@ -1,0 +1,22 @@
+{
+  "name": "multitranc8",
+  "authors": [
+    "Prashant Sharma <prashant.pab@gmail.com>"
+  ],
+  "description": "Cross-browser multi-line text ellipsis plugin",
+  "main": "jquery.multitranc8.js",
+  "keywords": [
+    "ellipsis",
+    "multiline-text-truncate"
+  ],
+  "license": "MIT",
+  "version": "0.0.1",
+  "homepage": "www.tutsnut.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
