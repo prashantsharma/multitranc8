@@ -10,7 +10,7 @@
     "multiline-text-truncate"
   ],
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.9",
   "homepage": "www.tutsnut.com",
   "ignore": [
     "**/.*",
