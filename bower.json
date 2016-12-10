@@ -3,8 +3,8 @@
   "authors": [
     "Prashant Sharma <prashant.pab@gmail.com>"
   ],
-  "description": "Cross-browser multi-line text ellipsis plugin",
-  "main": "jquery.multitranc8.js",
+  "description": "Cross-browser multi-line text ellipsis plugin. Thanks dotdotdot(http://dotdotdot.frebsite.nl/) for providing this solution.",
+  "main": "jquery.dotdotdot.js",
   "keywords": [
     "ellipsis",
     "multiline-text-truncate"
